@@ -1,0 +1,8 @@
+name: Web
+type: module
+description: This is the web module which will be used to create a new module and route automatically.
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - blog
+  - devel

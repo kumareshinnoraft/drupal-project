@@ -1,0 +1,12 @@
+<?php 
+
+/**
+ * Implements hook_theme().
+ */
+function movie_directory_theme($existing, $type, $theme, $path) {
+  return [
+    'demo' => [
+      'variables' => ['content' => "This is my content"]
+    ]
+  ];
+}
