@@ -1,0 +1,15 @@
+web.example:
+  path: '/web/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\web\Controller\WebController::build'
+  requirements:
+    _permission: 'access content'
+
+web.settings_form:
+  path: '/admin/config/system/web'
+  defaults:
+    _title: 'Web settings'
+    _form: 'Drupal\web\Form\SettingsForm'
+  requirements:
+    _permission: 'administer web configuration'

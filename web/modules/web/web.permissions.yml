@@ -1,0 +1,4 @@
+administer web configuration:
+  title: 'Administer web configuration'
+  description: 'Optional description.'
+  restrict access: true
